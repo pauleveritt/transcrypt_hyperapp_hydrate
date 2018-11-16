@@ -1,0 +1,18 @@
+{
+  "name": "transcrypt_hyperapp_hydrate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "lite-server ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hyperapp": "^1.2.9"
+  },
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}

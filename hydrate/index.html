@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Hyperapp Transcrypt</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <script src="hyperapp.js"></script>
+</head>
+<body>
+<h1>HyperApp Demo</h1>
+<div id="output"></div>
+<script type="module">
+    import * as hello from './__target__/demo.js';
+
+    window.hello = hello;
+</script>
+</body>
+</html>
