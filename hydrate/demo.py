@@ -12,7 +12,7 @@ def view(st, ac):
     return div({}, [
         h3({}, 'Welcome Counter'),
         h4({}, st.count),
-        [h3({}, i) for i in ('Hello', 'Goodbye')],
+        [h3({}, i) for i in ('Hello!', 'Goodbye')],
         button(dict(onclick=lambda: ac.down(1)), "-"),
         button(dict(onclick=lambda: ac.up(1)), "+")
     ])
@@ -22,5 +22,5 @@ window.hyperapp.app(
     state,
     actions,
     view,
-    document.getElementById("output")
+    document.getElementById("counter")
 )
