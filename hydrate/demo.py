@@ -1,6 +1,4 @@
-hyperapp = window.hyperapp
-h = window.hyperapp.h
-app = window.hyperapp.app
+from hydrate.html import button, div, h3, h4
 
 state = dict(count=11)
 
@@ -10,15 +8,19 @@ actions = dict(
 )
 
 
-def view(s, a):
-    return h(
-        'div', {}, [
-            h("h1", {}, s.count),
-            h("button", dict(onclick=lambda: a.down(1)), "-"),
-            h("button", dict(onclick=lambda: a.up(1)), "+")
-        ]
-    )
+def view(st, ac):
+    return div({}, [
+        h3({}, 'Welcome Counter'),
+        h4({}, st.count),
+        [h3({}, i) for i in ('Hello', 'Goodbye')],
+        button(dict(onclick=lambda: ac.down(1)), "-"),
+        button(dict(onclick=lambda: ac.up(1)), "+")
+    ])
 
 
-target = document.getElementById("output")
-app(state, actions, view, target)
+window.hyperapp.app(
+    state,
+    actions,
+    view,
+    document.getElementById("output")
+)
