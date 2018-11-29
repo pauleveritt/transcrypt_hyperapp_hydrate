@@ -1,4 +1,4 @@
-from hydrate.html import button, div, h3, h4
+from hydrate.html import button, div, h3, p
 
 state = dict(count=11)
 
@@ -10,9 +10,8 @@ actions = dict(
 
 def view(st, ac):
     return div({}, [
-        h3({}, 'Welcome Counter'),
-        h4({}, st.count),
-        [h3({}, i) for i in ('Hello!', 'Goodbye')],
+        h3({}, 'Welcome Counter1'),
+        p({}, 'Current Counter: ' + str(st.count)),
         button(dict(onclick=lambda: ac.down(1)), "-"),
         button(dict(onclick=lambda: ac.up(1)), "+")
     ])

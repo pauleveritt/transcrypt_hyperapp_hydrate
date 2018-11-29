@@ -16,8 +16,8 @@ bottle.debug(True)
 def index():
     initial_counter = '''
     <div>
-        <h3>Welcome Counter!!</h3>
-        <h4>{{ state.count }}</h4>
+        <h3>Counter Demo</h3>
+        <p>Current Count: {{ state.count }}</p>
         <button>-</button>
         <button>+</button>
     </div>
@@ -34,6 +34,7 @@ if __name__ == '__main__':
     app = default_app()
     server = Server(app)
     server.watch('hydrate/demo.py', shell(transpile, cwd='hydrate'))
+    server.watch('hydrate/__target__/*')
     server.watch('hydrate/demo.css')
     server.watch('hydrate/index.tpl', ignore=False)
     server.serve(root='hydrate')

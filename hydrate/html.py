@@ -26,3 +26,7 @@ def button(attributes, children):
 
 def div(attributes, children):
     return vnode("div")(attributes, children)
+
+
+def p(attributes, children):
+    return vnode("div")(attributes, children)
