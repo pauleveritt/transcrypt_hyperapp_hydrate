@@ -11,12 +11,7 @@
 renders, server-side, the HTML. After that, client-side events
 re-render the counter.</p>
 <div id="counter">
-    <div>
-        <h3>Welcome Counter</h3>
-        <h4>Waiting...</h4>
-        <button>-</button>
-        <button>+</button>
-    </div>
+{{! initial_counter }}
 </div>
 <script type="module">
     import * as demo from './__target__/demo.js';

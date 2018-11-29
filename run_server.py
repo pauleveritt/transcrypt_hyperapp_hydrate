@@ -3,6 +3,8 @@ from bottle import route, default_app, static_file
 from bottle import template
 from livereload import Server, shell
 
+from hydrate.demo import state
+
 # TODO Instead of forking and running Python, extract
 #   stuff from transcrypt.__main__.main
 transpile = '../env/bin/transcrypt -b -m -n demo.py'
@@ -12,7 +14,15 @@ bottle.debug(True)
 
 @route('/')
 def index():
-    return template('hydrate/index')
+    initial_counter = '''
+    <div>
+        <h3>Welcome Counter!!</h3>
+        <h4>{{ state.count }}</h4>
+        <button>-</button>
+        <button>+</button>
+    </div>
+    '''
+    return template('hydrate/index', initial_counter=initial_counter)
 
 
 @route('/<filepath:path>')

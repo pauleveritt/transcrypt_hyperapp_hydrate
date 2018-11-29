@@ -1,4 +1,8 @@
-h = window.hyperapp.h
+try:
+    h = window.hyperapp.h
+except NameError:
+    def h():
+        pass
 
 
 def vnode(name):

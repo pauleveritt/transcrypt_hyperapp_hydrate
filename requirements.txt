@@ -1,3 +1,4 @@
+-e .
 transcrypt
 bottle
 livereload==2.5.1

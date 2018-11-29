@@ -18,9 +18,12 @@ def view(st, ac):
     ])
 
 
-window.hyperapp.app(
-    state,
-    actions,
-    view,
-    document.getElementById("counter")
-)
+try:
+    window.hyperapp.app(
+        state,
+        actions,
+        view,
+        document.getElementById("counter")
+    )
+except NameError:
+    pass
