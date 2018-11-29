@@ -10,7 +10,7 @@ actions = dict(
 
 def view(st, ac):
     return div({}, [
-        h3({}, 'Welcome Counter1'),
+        h3({}, 'Welcome Counter'),
         p({}, 'Current Counter: ' + str(st.count)),
         button(dict(onclick=lambda: ac.down(1)), "-"),
         button(dict(onclick=lambda: ac.up(1)), "+")
