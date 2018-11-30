@@ -2,3 +2,5 @@
 transcrypt
 bottle
 livereload==2.5.1
+sphinx
+sphinx_rtd_theme
