@@ -11,7 +11,12 @@
 renders, server-side, the HTML. After that, client-side events
 re-render the counter.</p>
 <div id="counter">
-{{! initial_counter }}
+    <div>
+        <h3>Counter Demo</h3>
+        <p>Current Count: {{ state['count'] }}</p>
+        <button>-</button>
+        <button>+</button>
+    </div>
 </div>
 <script type="module">
     import * as demo from './__target__/demo.js';

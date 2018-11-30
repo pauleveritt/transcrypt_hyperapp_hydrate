@@ -11,8 +11,5 @@
   "license": "ISC",
   "dependencies": {
     "hyperapp": "^1.2.9"
-  },
-  "devDependencies": {
-    "lite-server": "^2.4.0"
   }
 }

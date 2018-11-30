@@ -1,0 +1,10 @@
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 2em 20em 2em 2em;
+}
+
+#counter {
+    margin: 2em;
+    padding: 1em;
+    border: solid gray 1px;
+}
