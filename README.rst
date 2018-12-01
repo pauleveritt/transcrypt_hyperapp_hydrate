@@ -1,7 +1,9 @@
-## Experiment with Transcrypt and HyperApp
+## Experiment with Transcrypt and HyperApp https://transcrypt-hyperapp-and-ssr.readthedocs.io/en/latest/
 
 Learn about HyperApp's hydration support then combine with
 Transcrypt to generate JS.
+
+`Tutorial <https://transcrypt-hyperapp-and-ssr.readthedocs.io/en/latest/>`_
 
 ## Notes
 

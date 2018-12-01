@@ -13,13 +13,17 @@ individually and in combination. Let's then explore some further topics:
   and delivered, then replaced with client-side rendering if JS is supported
   (aka "hydration")
 
+Other topics in the future:
+
+- Transcrypt's static type analysis
+
 - Client-side routing, where links between pages are intercepted and
   handled with a JS router
 
-Other topics in the future:
-
 - Doing server-side "templating" and client-side "templating" with the
   same code
+
+- Link pre-fetching
 
 - Offline-first
 
