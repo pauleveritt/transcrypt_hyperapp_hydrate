@@ -7,7 +7,9 @@ write advanced JavaScript from advanced Python.
 interesting: modern browser applications in a tiny amount of code.
 
 But the JS toolchain? Ugh. My GatsbyJS ``node_modules`` is 500 Mb. Isn't 
-there a better way? Python, and Transcrypt, to the rescue.
+there a better way? Python, and Transcrypt, to the rescue. Write your JS in
+Python, where it can execute both in a Python web application and later
+in the browser. Same code.
 
 Let's do an example, in tutorial format, of explaining these two,
 individually and in combination. Let's then explore some further topics:
