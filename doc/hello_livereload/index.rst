@@ -4,7 +4,7 @@ Hello LiveReload
 
 Let's get some bits on the screen. In this step we're going to make a
 small Bottle application which returns an HTML template and the
-two script tags to load our HyperApp files.
+two script tags to load our Hyperapp files.
 
 LiveReload
 ==========

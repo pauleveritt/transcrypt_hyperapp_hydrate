@@ -9,7 +9,7 @@ that there will therefore be a duplication in implementation logic:
 Python for the first render and JavaScript for once it is hydrated.
 
 Let's write the counter once, in Python, and have Transcrypt generate
-the JS for HyperApp.
+the JS for Hyperapp.
 
 Counter, In Python
 ==================
@@ -51,7 +51,7 @@ As you can see, this is just a proof-of-concept:
 - It doesn't include all the tags
 
 - It can't be used 100% in Python, because it still needs the ``h`` function
-  from HyperApp (only 60 or so lines, but dense in concepts)
+  from Hyperapp (only 60 or so lines, but dense in concepts)
 
 Still, it allows us to use Python tooling (e.g. type hinting) when writing
 our views, rather than rely on some alien symbol representing a JavaScript
@@ -92,7 +92,7 @@ templates:
 
 - The ``index.tpl`` Bottle template
 
-- The ``hyperapp/html`` (converted to Python) in the HyperApp view
+- The ``hyperapp/html`` (converted to Python) in the Hyperapp view
 
 Wouldn't it be great if there was just one template? That way the initial
 render could use the same template that was used later.

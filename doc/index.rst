@@ -1,10 +1,13 @@
-Transcrypt + HyperApp
+Transcrypt + Hyperapp
 =====================
 
 `Transcrypt <http://www.transcrypt.org>`_ is fantastically interesting:
 write advanced JavaScript from advanced Python.
-`HyperApp <https://github.com/jorgebucaran/hyperapp>`_ is fantastically
+`Hyperapp <https://github.com/jorgebucaran/hyperapp>`_ is fantastically
 interesting: modern browser applications in a tiny amount of code.
+
+But the JS toolchain? Ugh. My GatsbyJS ``node_modules`` is 500 Mb. Isn't 
+there a better way? Python, and Transcrypt, to the rescue.
 
 Let's do an example, in tutorial format, of explaining these two,
 individually and in combination. Let's then explore some further topics:

@@ -1,12 +1,12 @@
 ==============
-Hello HyperApp
+Hello Hyperapp
 ==============
 
 Lots of choices for JavaScript frontend frameworks, with React leading
 the way. But most of those choices end up meaning a *ginormous* toolchain
 of ever-changing, ever-breaking tools to transpile the universe.
 
-HyperApp is the impossibly-small, yet feature-rich JS framework. Small as
+Hyperapp is the impossibly-small, yet feature-rich JS framework. Small as
 in, under 1 KB. Small enough to not actually need minification and
 bundling...and in browsers which support
 `ES Modules <https://caniuse.com/#feat=es6-module>`_ you still get
@@ -27,10 +27,10 @@ What's in this simple counter?
 
 - The initial state of the counter
 
-- Two *actions*, which are arrow functions which HyperApp calls, providing
+- Two *actions*, which are arrow functions which Hyperapp calls, providing
   the state
 
-- The *view*, which is usually JSX, but we are doing using the HyperApp
+- The *view*, which is usually JSX, but we are doing using the Hyperapp
   ``html`` helper package. We don't want JSX because we don't want a
   JavaScript toolchain to have to process it into JS. We have another
   reason, which we'll reveal in the next section.

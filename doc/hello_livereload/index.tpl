@@ -8,7 +8,7 @@
     <script src="hyperappHtml.js"></script>
 </head>
 <body>
-<h1>Transcrypt + HyperApp Demo</h1>
+<h1>Transcrypt + Hyperapp Demo</h1>
 <p>This sample application has a counter. On first load, the counter
     renders, server-side, the HTML. After that, client-side events
     re-render the counter.</p>

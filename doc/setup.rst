@@ -4,7 +4,7 @@ Setup
 
 We need to do the normal Python dance: make a virtual environment and
 install our dependencies. We also need to download the two files from
-HyperApp.
+Hyperapp.
 
 We want to show going an extra step and get the packages for a development
 environment that matches some of the webpack-devserver auto-build/reload.
@@ -34,7 +34,7 @@ browser:
 
     We're picking a specific livereload version to avoid a bug.
 
-Let's also get our two JS files, HyperApp itself and a HyperApp HTML
+Let's also get our two JS files, Hyperapp itself and a Hyperapp HTML
 helper package (as an alternative to JSX):
 
 .. code-block:: bash
